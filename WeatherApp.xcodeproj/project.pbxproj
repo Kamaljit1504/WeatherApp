@@ -19,6 +19,9 @@
 		9B6C99D323D27135002B6924 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6C99D123D27135002B6924 /* SwiftyJSON.swift */; };
 		9B6C99D723D2756E002B6924 /* CityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6C99D623D2756E002B6924 /* CityTableViewCell.swift */; };
 		9B6C99D923D27FBB002B6924 /* WeatherURLManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6C99D823D27FBA002B6924 /* WeatherURLManager.swift */; };
+		9B6C99DD23D29334002B6924 /* ForecastData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6C99DC23D29334002B6924 /* ForecastData.swift */; };
+		9B6C99DF23D29779002B6924 /* ForecastTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6C99DE23D29779002B6924 /* ForecastTableViewController.swift */; };
+		9BF767D823D2998100759BAD /* ForecastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF767D723D2998100759BAD /* ForecastTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,9 @@
 		9B6C99D223D27135002B6924 /* SwiftyJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftyJSON.h; sourceTree = "<group>"; };
 		9B6C99D623D2756E002B6924 /* CityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityTableViewCell.swift; sourceTree = "<group>"; };
 		9B6C99D823D27FBA002B6924 /* WeatherURLManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherURLManager.swift; sourceTree = "<group>"; };
+		9B6C99DC23D29334002B6924 /* ForecastData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastData.swift; sourceTree = "<group>"; };
+		9B6C99DE23D29779002B6924 /* ForecastTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastTableViewController.swift; sourceTree = "<group>"; };
+		9BF767D723D2998100759BAD /* ForecastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +150,8 @@
 				9B6C99D623D2756E002B6924 /* CityTableViewCell.swift */,
 				9B6C99A323D26EA9002B6924 /* ViewController.swift */,
 				9B6C99A523D26EA9002B6924 /* Main.storyboard */,
+				9B6C99DE23D29779002B6924 /* ForecastTableViewController.swift */,
+				9BF767D723D2998100759BAD /* ForecastTableViewCell.swift */,
 			);
 			path = controllrs;
 			sourceTree = "<group>";
@@ -154,6 +162,7 @@
 				9B6C99D223D27135002B6924 /* SwiftyJSON.h */,
 				9B6C99D123D27135002B6924 /* SwiftyJSON.swift */,
 				9B6C99D823D27FBA002B6924 /* WeatherURLManager.swift */,
+				9B6C99DC23D29334002B6924 /* ForecastData.swift */,
 			);
 			path = swift;
 			sourceTree = "<group>";
@@ -291,10 +300,13 @@
 			files = (
 				9B6C99D723D2756E002B6924 /* CityTableViewCell.swift in Sources */,
 				9B6C99D023D26EF4002B6924 /* CityTableViewController.swift in Sources */,
+				9B6C99DF23D29779002B6924 /* ForecastTableViewController.swift in Sources */,
 				9B6C99A423D26EA9002B6924 /* ViewController.swift in Sources */,
 				9B6C99A023D26EA9002B6924 /* AppDelegate.swift in Sources */,
 				9B6C99D323D27135002B6924 /* SwiftyJSON.swift in Sources */,
+				9BF767D823D2998100759BAD /* ForecastTableViewCell.swift in Sources */,
 				9B6C99D923D27FBB002B6924 /* WeatherURLManager.swift in Sources */,
+				9B6C99DD23D29334002B6924 /* ForecastData.swift in Sources */,
 				9B6C99A223D26EA9002B6924 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
