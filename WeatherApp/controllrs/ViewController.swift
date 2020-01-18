@@ -10,11 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var cityTxt: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func addCity(_ sender: UIButton)
+    {
+        cities?.append(cityTxt.text!)
+    }
+    
 }
 
